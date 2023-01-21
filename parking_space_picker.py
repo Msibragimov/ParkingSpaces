@@ -4,7 +4,7 @@ import pickle
 img = cv2.imread('car_parking.jpg')
 output = img.copy()
 
-width, height = 80, 164
+width, height = 40, 80
 
 
 try: 
