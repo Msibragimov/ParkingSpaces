@@ -32,7 +32,7 @@ while True:
     output = img.copy()
 
     for pos in position_list:
-        cv2.rectangle(output, pos, (pos[0] + width, pos[1] + height), (255, 0, 0), 2)
+        cv2.rectangle(output, pos, (pos[0] + width, pos[1] + height), (255, 0, 0), 1)
 
     cv2.imshow("image", output)
     cv2.setMouseCallback("image", mouse_click)
